@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files.zip -->
+   
+  <filename>epgpainel.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!--<decryptkey site="site-name">decrypt_userkey</decryptkey>-->
+  <!--<license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password" />-->
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>29</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+  
+  <channel update="i" site="lineup.net.br" site_id="579146" xmltv_id="A&E">A&E</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH150" xmltv_id="A&E FHD">A&E FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="MGM" xmltv_id="AMC">AMC</channel>
+  <channel update="i" site="lineup.net.br" site_id="310177" xmltv_id="AMC FHD">AMC FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="APL" xmltv_id="Animal Planet">Animal Planet</channel>
+  <channel update="i" site="lineup.net.br" site_id="992823" xmltv_id="Animal Planet FHD">Animal Planet FHD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="407##animal_planet" xmltv_id="Animal Planet HD">Animal Planet HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="334752" xmltv_id="AXN">AXN</channel>
+  <channel update="i" site="meuguia.tv" site_id="AXH" xmltv_id="AXN HD">AXN HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="807711" xmltv_id="Band">Band</channel>
+  <channel update="i" site="netcombo.com.br" site_id="2247##band" xmltv_id="Band FHD">Band FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="377972" xmltv_id="Boomerang">Boomerang</channel>
+  <channel update="i" site="meuguia.tv" site_id="BMG" xmltv_id="Boomerang FHD">Boomerang FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="538255" xmltv_id="Canal Sony">Canal Sony</channel>
+  <channel update="i" site="meuguia.tv" site_id="SET" xmltv_id="Canal Sony HD">Canal Sony HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="721829" xmltv_id="Cartoon Network">Cartoon Network</channel>
+  <channel update="i" site="meuguia.tv" site_id="CAR" xmltv_id="Cartoon Network FHD">Cartoon Network FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="860020" xmltv_id="Cinemax">Cinemax</channel>
+  <channel update="i" site="meuguia.tv" site_id="MNX" xmltv_id="Cinemax HD">Cinemax HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="CN9" xmltv_id="CNN Brasil">CNN Brasil</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH3099" xmltv_id="CNN Brasil FHD">CNN Brasil FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="135" xmltv_id="Combate">Combate</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH38" xmltv_id="Combate HD">Combate HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="487##combate" xmltv_id="Combate FHD">Combate FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="849602" xmltv_id="Comedy Central">Comedy Central</channel>
+  <channel update="i" site="meuguia.tv" site_id="CCE" xmltv_id="Comedy Central HD">Comedy Central HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="579063" xmltv_id="Discovery Channel">Discovery Channel</channel>
+  <channel update="i" site="meuguia.tv" site_id="DIS" xmltv_id="Discovery Channel HD">Discovery Channel HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH771" xmltv_id="Discovery Channel FHD">Discovery Channel FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="403129" xmltv_id="Discovery Home Health">Discovery Home Health</channel>
+  <channel update="i" site="meuguia.tv" site_id="HEA" xmltv_id="Discovery Home Health HD">Discovery Home Health HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH198" xmltv_id="Discovery Home Health FHD">Discovery Home Health FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="140971" xmltv_id="Discovery Kids">Discovery Kids</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH39" xmltv_id="Discovery Kids HD">Discovery Kids HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="467961" xmltv_id="Discovery Science">Discovery Science</channel>
+  <channel update="i" site="meuguia.tv" site_id="DSC" xmltv_id="Discovery Science HD">Discovery Science HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="505519" xmltv_id="Discovery Theater HD">Discovery Theater HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH1242" xmltv_id="Discovery Theater FHD">Discovery Theater FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="830058" xmltv_id="Discovery Turbo">Discovery Turbo</channel>
+  <channel update="i" site="meuguia.tv" site_id="DTU" xmltv_id="Discovery Turbo HD">Discovery Turbo HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH42" xmltv_id="Discovery Turbo FHD">Discovery Turbo FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="733482" xmltv_id="Discovery World HD">Discovery World HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2088" xmltv_id="Discovery World FHD">Discovery World FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="199977" xmltv_id="Disney Channel">Disney Channel</channel>
+  <channel update="i" site="meuguia.tv" site_id="DNH" xmltv_id="Disney Channel HD">Disney Channel HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH91" xmltv_id="Disney Channel FHD">Disney Channel FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="233631" xmltv_id="Disney XD">Disney XD</channel>
+  <channel update="i" site="meuguia.tv" site_id="DXD" xmltv_id="Disney XD HD">Disney XD HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="335258" xmltv_id="EI HD">EI Plus HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="440135" xmltv_id="ESPN">ESPN</channel>
+  <channel update="i" site="meuguia.tv" site_id="ESH" xmltv_id="ESPN  HD">ESPN  HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH51" xmltv_id="ESPN FHD">ESPN FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="350650" xmltv_id="Fish TV">Fish TV</channel>
+  <channel update="i" site="lineup.net.br" site_id="169477" xmltv_id="Food Network">Food Network</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH53" xmltv_id="Food Network HD">Food Network HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="112124" xmltv_id="FOX">FOX</channel>
+  <channel update="i" site="meuguia.tv" site_id="FOX" xmltv_id="FOX HD">FOX HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2045" xmltv_id="FOX FHD">FOX FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="230127" xmltv_id="Fox Sports">Fox Sports</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH144" xmltv_id="Fox Sport HD">Fox Sport HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1034##fox_sports" xmltv_id="Fox Sports FHD">Fox Sports FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="110708" xmltv_id="FoxSports 2 HD">FoxSports 2 HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="656821" xmltv_id="FX">FX</channel>
+  <channel update="i" site="meuguia.tv" site_id="CFX" xmltv_id="FX HD">FX HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="511761" xmltv_id="Globo SP">Globo SP</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH3872" xmltv_id="Globo SP HD">Globo SP HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="759036" xmltv_id="GNT">GNT</channel>
+  <channel update="i" site="meuguia.tv" site_id="GNT" xmltv_id="GNT HD">GNT HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH138" xmltv_id="HBO">HBO</channel>
+  <channel update="i" site="netcombo.com.br" site_id="437##hbo" xmltv_id="HBO FHD">HBO FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="HBO" xmltv_id="HBO HD">HBO HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="HB2" xmltv_id="HBO 2">HBO 2</channel>
+  <channel update="i" site="netcombo.com.br" site_id="436##hbo_2" xmltv_id="HBO 2 HD">HBO 2 HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH182" xmltv_id="HBO 2 FHD">HBO 2 FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="HFA" xmltv_id="HBO Family">HBO Family</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH462" xmltv_id="HBO Family HD">HBO Family HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="MXE" xmltv_id="HBO Mundi">HBO Mundi</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH461" xmltv_id="HBO Mundi HD">HBO Mundi HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="HPL" xmltv_id="HBO Plus">HBO Plus</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH931" xmltv_id="HBO Plus HD">HBO Plus HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="HFE" xmltv_id="HBO Signature">HBO Signature</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2450" xmltv_id="HBO Signature HD">HBO Signature HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="MAP" xmltv_id="HBO Xtreme">HBO Xtreme</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH149" xmltv_id="HBO Xtreme HD">HBO Xtreme HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="2311##hgtv" xmltv_id="HGTV HD">HGTV HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH71" xmltv_id="HGTV FHD">HGTV FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="LIV" xmltv_id="ID - Investigação Discovery">ID - Investigação Discovery</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH56" xmltv_id="ID - Investigação Discovery HD">ID - Investigação Discovery HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="MPX" xmltv_id="Megapix">Megapix</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH857" xmltv_id="Megapix HD">Megapix HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="NGH" xmltv_id="Nat Geo Wild FHD">Nat Geo Wild FHD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH934" xmltv_id="NatGeoWild HD">NatGeoWild HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="SUP" xmltv_id="National Geographic">National Geographic</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH90" xmltv_id="National Geographic HD [Alter]">National Geographic HD [Alter]</channel>
+  <channel update="i" site="meuguia.tv" site_id="NBR" xmltv_id="NBR">NBR</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH186" xmltv_id="NHK">NHK</channel>
+  <channel update="i" site="meuguia.tv" site_id="NIC" xmltv_id="Nickelodeon">Nickelodeon</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH6" xmltv_id="Nickelodeon HD">Nickelodeon HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="462##nickelodeon" xmltv_id="Nickelodeon FHD">Nickelodeon FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="PAR" xmltv_id="Paramount">Paramount</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2090" xmltv_id="Premiere 2 FHD">Premiere 2 FHD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2165" xmltv_id="Premiere 3 FHD">Premiere 3 FHD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2062" xmltv_id="Premiere 4 FHD">Premiere 4 FHD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2444" xmltv_id="Premiere 5 FHD">Premiere 5 FHD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH92" xmltv_id="Premiere 6 FHD">Premiere 6 FHD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH191" xmltv_id="Premiere 7 FHD">Premiere 7 FHD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2439" xmltv_id="Premiere Clubes FHD">Premiere Clubes FHD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH133" xmltv_id="Record FHD">Record FHD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2081" xmltv_id="Rede TV HD">Rede TV HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH103" xmltv_id="SBT FHD">SBT FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="SPA" xmltv_id="Space">Space</channel>
+  <channel update="i" site="lineup.net.br" site_id="107575" xmltv_id="Space HD">Space HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH160" xmltv_id="Space FHD">Space FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="SPO" xmltv_id="SporTV">SporTV</channel>
+  <channel update="i" site="lineup.net.br" site_id="811805" xmltv_id="SporTV HD">SporTV HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2093" xmltv_id="SporTV FHD">SporTV FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="SP2" xmltv_id="SporTV 2">SporTV 2</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH654" xmltv_id="SporTV 2 HD">SporTV 2 HD</channel>
+  <channel update="i" site="lineup.net.br" site_id="757057" xmltv_id="SporTV 2 FHD">SporTV 2 FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="SP3" xmltv_id="SporTV 3">SporTV 3</channel>
+  <channel update="i" site="lineup.net.br" site_id="446591" xmltv_id="SporTV 3 HD">SporTV 3 HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH120" xmltv_id="SporTV 3 FHD">SporTV 3 FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="HAL" xmltv_id="Studio Universal">Studio Universal</channel>
+  <channel update="i" site="lineup.net.br" site_id="730757" xmltv_id="Studio Universal HD">Studio Universal HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="TC2" xmltv_id="Telecine Action">Telecine Action</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH113" xmltv_id="Telecine Action HD">Telecine Action HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="898##telecine_action_hd_" xmltv_id="Telecine Action FHD">Telecine Action FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="TC5" xmltv_id="Telecine Cult">Telecine Cult</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH154" xmltv_id="Telecine Cult HD">Telecine Cult HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1100##telecine_cult_hd_" xmltv_id="Telecine Cult FHD">Telecine Cult FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="TC6" xmltv_id="Telecine Fun">Telecine Fun</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2173" xmltv_id="Telecine Fun HD">Telecine Fun HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1018##telecine_fun_hd_" xmltv_id="Telecine Fun FHD">Telecine Fun FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="TC4" xmltv_id="Telecine Pipoca">Telecine Pipoca</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH126" xmltv_id="Telecine Pipoca HD">Telecine Pipoca HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="871##telecine_pipoca_hd_" xmltv_id="Telecine Pipoca FHD">Telecine Pipoca FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="TC1" xmltv_id="Telecine Premium">Telecine Premium</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH1287" xmltv_id="Telecine Premium HD">Telecine Premium HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="838##telecine_premium_hd_" xmltv_id="Telecine Premium FHD">Telecine Premium FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="TC3" xmltv_id="Telecine Touch">Telecine Touch</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH2793" xmltv_id="Telecine Touch HD">Telecine Touch HD</channel>
+  <channel update="i" site="netcombo.com.br" site_id="1019##telecine_touch_hd_" xmltv_id="Telecine Touch FHD">Telecine Touch FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="TRV" xmltv_id="TLC">TLC</channel>
+  <channel update="i" site="lineup.net.br" site_id="587400" xmltv_id="TLC HD">TLC HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="TNT" xmltv_id="TNT">TNT</channel>
+  <channel update="i" site="lineup.net.br" site_id="259413" xmltv_id="TNT HD">TNT HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH128" xmltv_id="TNT FHD">TNT FHD</channel>
+  <channel update="i" site="lineup.net.br" site_id="428188" xmltv_id="TNT Series">TNT Series</channel>
+  <channel update="i" site="meuguia.tv" site_id="TNS" xmltv_id="TNT Series HD">TNT Series HD</channel>
+  <channel update="i" site="meuguia.tv" site_id="TOC" xmltv_id="Tooncast">Tooncast</channel>
+  <channel update="i" site="lineup.net.br" site_id="429008" xmltv_id="Tooncast HD [Alter]">Tooncast HD [Alter]</channel>
+  <channel update="i" site="meuguia.tv" site_id="TRU" xmltv_id="TruTV">TruTV</channel>
+  <channel update="i" site="meuguia.tv" site_id="GAZ" xmltv_id="Tv Gazeta SP HD">Tv Gazeta SP HD</channel>
+  <channel update="i" site="vivo.com.br" site_id="LCH58" xmltv_id="Tv Gazeta SP FHD">Tv Gazeta SP FHD</channel>
+  <channel update="i" site="meuguia.tv" site_id="USA" xmltv_id="Universal Channel">Universal Channel</channel>
+  <channel update="i" site="meuguia.tv" site_id="WBT" xmltv_id="Warner Channel">Warner Channel</channel>
+  <channel update="i" site="lineup.net.br" site_id="392407" xmltv_id="Warner Channel HD">Warner Channel HD</channel>
+  
+  
+  
+</settings>
